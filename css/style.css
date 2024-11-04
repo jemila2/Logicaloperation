@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: Rework;
+    src: url url(../fonts/myfont.woff2);
+    }
+.nav-head{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background-color: transparent;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.All{
+    display: flex;
+    gap: 30%;
+}
+.banner{
+    height: 150vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    font-family: Rework;
+
+    gap: 70px;
+    background-image: url(../image/lo-homepage-background-010721.png);
+}
+.banner-1{
+    height: 45vh;
+    width: 45%;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 7px;
+    color: white;
+    width: 100%;
+}
+.grid-items {
+    height: 70px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.one{
+    background-color: rgb(245, 20, 20);
+    height: 70px;
+    width: 95%;
+}
+.one h4{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.two{
+    background-color: rgb(99, 99, 247);
+    
+    height: 70px;
+    width: 120%;
+}
+.two h4{
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.three{
+    background-color: rgb(80, 80, 225);
+    height: 70px;
+    width: 75%;
+    margin-left: 45px;
+}
+.three h4{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.text{
+    font-family: Rework;
+    color: white;
+    font-size: larger;
+}
+.banner-2{
+    height: 70vh;
+    width: 40%;
+    margin-top: 100px;
+}
+.black{
+    height: 250px;
+    width: 100%;
+    gap: 1px;
+    display: flex; 
+    background-color: rgb(114, 112, 109);  
+}
+.lack-1{
+    height: 250px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgb(17, 5, 29);
+    
+}
+.ack-1{
+    height: 60px;
+    width: 50%;
+    margin: 0px 10px 0px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../image/mcct_logo2.png);
+}
+.ack-2{
+    height: 130px;
+    width: 40%;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: larger;
+}
+.ack-2 h5{
+    margin-top: 10px;
+}
+.lack-2{
+    height: 250px;
+    width: 50%;
+    background-color: rgb(3, 3, 28);
+    
+}
+.lack-2{
+    height: 250px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgb(17, 5, 29);
+    
+}
+.ack-3{
+    height: 130px;
+    width: 30%;
+    margin: 0px 10px 0px 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../image/nys_2.png);
+}
+.ack-4{
+    height: 130px;
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: larger;
+}
+.ack-4 h5{
+    margin-top: 10px;
+}
+.lack-4{
+    height: 250px;
+    width: 50%;
+    background-color: rgb(3, 3, 28);
+    
+}
+.blue{
+    height: 250px;
+    width: 100%;
+    color: white;
+    gap: 1px;
+    display: flex; 
+    background-color: rgb(3, 63, 94);  
+}
+.blu-1{
+    height: 250px;
+    width: 40%;
+    padding-top: 70px;
+    background-color: rgb(13, 142, 206);
+}
+.blu-2:hover{
+    transform: translateX(40px);
+    transition: .6s linear;
+}
+.blu-1 h1{
+    margin-left: 20px;
+}
+.blu-1 h4{
+    margin-left: 20px;
+}
+.blu-2{
+    height: 250px;
+    width: 20%;
+    background-color: rgb(13, 142, 206);
+    transition: transform 1s ease-in-out;
+}
+.blu-2 h2{
+    margin-left: 20px;
+    padding-top: 100px;
+}
+
+.blu-3:hover{
+    transform: translateX(40px);
+    transition: .6s linear;
+}
+.blu-3{
+    height: 250px;
+    width: 20%;
+    transition: transform 1s ease-in-out;
+    background-color: rgb(13, 142, 206);
+}
+.blu-3 h2{
+    margin-left: 20px;
+    padding-top: 100px;
+}
+.blu-4{
+    height: 250px;
+    width: 20%;
+    background-color: rgba(13, 142, 206);
+}
+.blu-4 h2{
+    margin-left: 20px;
+    padding-top: 100px;
+}
+.green{
+    height: 600px;
+    width: 100%;
+    gap: 1px;
+    display: flex;
+    background-color: rgb(4, 138, 4);
+    padding-top: 2px;
+}
+.gree-1{
+    height: 600px;
+    width: 33.3%;
+    background-color: #253d03; 
+}
+.gre-1{
+    height: 300px;
+    width: 100%;
+    gap: 1px;
+    margin-bottom: 1px;
+    background-color: #7fc027;
+}
+.gre-1 img{
+    height: 150px;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 40px;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+.gre-1 h4{
+    margin-left: 130px;
+    color: white;
+}
+.gre-2{
+    height: 300px;
+    width: 100%;
+    color: white;
+    background-color: #7fc027;
+}
+.tgre{
+    text-align: center;
+}
+.gre-2 img{
+    height: 60px;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 40px;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+.gree-2{
+    height: 600px;
+    width: 33.3%;
+    font-size: xx-large;
+    background-color: #7fc027;
+}
+.green-text{
+    height: 300px;
+    width: 100%;
+    position: relative;
+    top: 30%;
+    text-align: center;
+    color: white;
+}
+.green-tex h1{
+    font-weight: lighter;
+}
+.green-te h1{
+    font-weight: bolder;
+}
+.green-t h4{
+    font-size: small;
+    margin-top: 30px;
+    color: black;
+    font-weight: lighter;
+}
+.gree-3{
+    height: 600px;
+    width: 33.3%;
+    color: white;
+    background-color: rgb(5, 146, 5);
+}
+.tgree{
+    text-align: center;
+}
+.gre-3 h4{
+    color: white;
+    margin-left: 130px;
+}
+.gre-3 img{
+    height: 60px;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 70px;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+.gre-3{
+    height: 300px;
+    width: 100%;
+    gap: 1px;
+    margin-bottom: 2px;
+    background-color: #7fc027;
+}
+.gre-4{
+    height: 300px;
+    width: 100%;
+    background-color: #7fc027;
+}
+.gre-4 img{
+    height: 60px;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 70px;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+.brown{
+    height: 900px;
+    display: block;
+    width: 100%;
+    gap: 1px;
+    display: flex;
+    background-color: rgb(75, 3, 3);
+}
+.brow-1{
+    height: 900px;
+    width: 50%;
+    background-color: #3c0f2b;
+}
+.bro-1{
+    height: 600px;
+    width: 100%;
+    background-color: #972169;
+}
+.bro-2{
+    height: 302px;
+    width: 100%;
+    display: block;
+    margin-top: 1px;
+    background-color: #972169;
+}
+.brow-2{
+    height: 900px;
+    width: 50%;
+    background-color: #3e0528;
+}
+.bro-3{
+    height: 300px;
+    display: block;
+    width: 100%;
+    display: flex;
+    margin-top: 1px;
+    background-color: #972169;
+}
+.pic-1{
+    height: 160px;
+    width: 20%;
+    margin-left: 50px;
+    position: relative;
+    top: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../image/cfr_qa_tim_summers_cover.png);
+}
+.pic-2{
+    height: 250px;
+    width: 55%;
+    margin-left: 50px;
+    position: relative;
+    color: white;
+    top: 20px;
+}
+.slid-1{
+    
+    height: 300px;
+    width: 100%;
+    margin-top: 1px;
+    position: relative;
+    overflow: hidden;
+    background-color:#a2066e;
+    transition: transform 1s ease-in-out;
+
+}
+
+.solid-1:hover{
+    transform: translateX(40px);
+    transition: .6s linear;
+    overflow: hidden;
+}
+.bro-4{
+    height: 300px;
+    width: 100%;
+    margin-top: 1px;
+    overflow: hidden;
+    transition: transform 1s ease-in-out;
+    background-color: #972169;
+}
+.bro-5{
+    height: 300px;
+    width: 100%;
+    margin-top: 1px;
+    background-color: #972169;
+}
+.bulue{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    margin-top: 4px;
+    gap: 1px;
+    background-color: #01213c;
+}
+.mama{
+    height: 900px;
+    width: 50%;
+    background-color: #f70ca9;
+}
+.bulu-2{
+    height: 900px;
+    width: 50%;
+    background-color: #16c42d;
+}
+.mama{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 1px;
+    width: 50%;
+
+
+}
+.mam{
+    height: 450px;
+    width: 100%;
+    background-color: #7616c4;
+}
+.yellow{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    gap: 1px;
+    background-color: rgb(95, 82, 5);
+}
+.yello-1{
+    height: 250px;
+    width: 70%;
+    background-color: rgb(255, 219, 16);
+}
+.yello-2{
+    height: 250px;
+    width: 30%;
+    background-color: rgb(234, 200, 9);
+}
+.last{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
